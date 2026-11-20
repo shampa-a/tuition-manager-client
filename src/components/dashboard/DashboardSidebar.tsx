@@ -11,6 +11,7 @@ const menuItems = [
   { name: "Messages", href: "/dashboard/student/messages", icon: "✉" },
   { name: "Notifications", href: "/dashboard/student/notifications", icon: "♧" },
   { name: "My Profile", href: "/dashboard/student/profile", icon: "♙" },
+  {name: "Saved Tutors", href: "/dashboard/student/saved-tutors",  icon: "♡",},
 ];
 
 export default function DashboardSidebar() {
