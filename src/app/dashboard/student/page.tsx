@@ -210,6 +210,13 @@ export default function StudentDashboard() {
               >
                 View Profile
               </Link>
+<Link
+  href="/dashboard/student/become-tutor"
+  className="rounded-lg border border-white/50 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10"
+>
+  Become a Tutor
+</Link>
+
             </div>
           ))}
         </div>
